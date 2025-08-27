@@ -7,25 +7,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #simulator{
     width: 100%;
     max-width: 1300px;
     padding: 50px 60px;
-    border: 1px solid #dde0e8;
+    border: 1px solid #e8e8dd;
     margin: 100px auto;
-    box-shadow: 0 0 3em #dfdfdf;
+    box-shadow: 0 0 3em ;
 }
 
 h1{
     font-size: 34px;
     font-weight: 700;
-    color: #1c9882;
+    color: #3f981c;
     text-align: center;
     padding-bottom: 50px;
-    border-bottom: 2px solid #7a93ab;
+    border-bottom: 2px solid #3f981c;
 }
 
 .cont-flex{
@@ -40,7 +40,7 @@ h1{
 }
 
 h2{
-    color: #202d37;
+    color: #3f981c;
     font-weight: 700;
     font-size: 28px;
     margin-bottom: 14px;
@@ -48,7 +48,7 @@ h2{
 
 .left p{
     margin-bottom: 30px;
-    color: #2f3c46;
+    color: #171d22;
 }
 
 form{
@@ -79,7 +79,7 @@ form{
 .group-data label{ 
     display: block;
     margin-bottom: 10px;
-    color: #202d37;
+    color: rgb(30, 102, 1);
 }
 .group-data input,
 .group-data select{
@@ -92,24 +92,24 @@ form button{
     display: block;
     width: 97%;
     padding: 14px 80px;
-    background: #1c9882;
+    background: #3f981c;
     color: #fff;
-    border: 1px solid #1c9882;
+    border: 1px solid #3f981c;
     transition: .4s;
     cursor: pointer;
 }
 
 form button:hover{
     background: #f5f8fa;
-    border: 1px solid #1c9882;
-    color: #1c9882;
+    border: 1px solid #3f981c;
+    color: #3f981c;
 }
 
 input, select{
     padding: 14px 30px;
-    background: #f5f8fa;
+    background: #dfffd0;
     border: 0;
-    border-bottom: 2px solid #7a93ab;
+    border-bottom: 2px solid #3f981c;
     outline: none;
 }
 input::placeholder {
