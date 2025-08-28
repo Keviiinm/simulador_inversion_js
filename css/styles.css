@@ -14,7 +14,7 @@
     width: 100%;
     max-width: 1300px;
     padding: 50px 60px;
-    border: 1px solid #e8e8dd;
+    border: 1px solid #3f981c;
     margin: 100px auto;
     box-shadow: 0 0 3em ;
 }
@@ -113,7 +113,7 @@ input, select{
     outline: none;
 }
 input::placeholder {
-    color: #000; /* Cambia este valor al color que desees */
+    color: #929292; /* Cambia este valor al color que desees */
 }
 
 .right .pre-simulation{

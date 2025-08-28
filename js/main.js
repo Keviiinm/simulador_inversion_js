@@ -55,6 +55,8 @@ function simulador(){
 
     showTotal.textContent = total
     showGanancia.textContent = ganancia
+    showNombres.textContent = nombres
+    showCorreo.textContent = email
 
 
     const contpre = document.getElementById('pre-simulation')
