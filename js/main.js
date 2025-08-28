@@ -11,6 +11,7 @@ function simulador(){
     // CONSTANTES QUE CAPTURAN LAS ETIQUETAS SPAN EN LAS QUE SE MUESTRAN LOS VALORES 
 
 
+
     const showTiempo = document.getElementById('showTiempo')
     const showInteres = document.getElementById('showInteres')
     const showTotal= document.getElementById('showTotal')
@@ -51,6 +52,17 @@ function simulador(){
     
         default:
             break;
+    }
+
+    if (nombres == "" || email == "" || monto == "" || tiempo == "") {
+        alert("Complete los cambios obligatorios")
+        
+    }else{
+        contPost.classList.remove('disabled')
+        contpre.classList.add('disabled')
+        switch (tiempo) {
+            
+        }
     }
 
     showTotal.textContent = total
