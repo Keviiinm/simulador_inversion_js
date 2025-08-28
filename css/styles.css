@@ -190,3 +190,23 @@ input::placeholder {
 .notificacion h5 span{
     font-weight: 700;
 }
+
+footer {
+  background: #f8f8f8;       
+  color: #333;                
+  text-align: center;         
+  padding: 15px 0;            
+  font-size: 14px;            
+  border-top: 1px solid #ddd; 
+}
+
+footer a {
+  color: #2c7a2c;             
+  text-decoration: none;      
+  font-weight: bold;          
+  transition: color 0.4s;     
+}
+
+footer a:hover {
+  color: #1a531a; 
+}

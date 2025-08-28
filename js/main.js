@@ -61,7 +61,7 @@ function simulador(){
         contPost.classList.remove('disabled')
         contpre.classList.add('disabled')
         switch (tiempo) {
-            
+
         }
     }
 
